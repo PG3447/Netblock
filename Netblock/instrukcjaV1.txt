@@ -1,0 +1,65 @@
+InstrukcjaV1 - Jest to starsza instrukcjia jednakże informacje dotyczące instalacji i obsługi są aktualne chociaż sama instalacjia jest bardziej wymagające.
+Tłumaczy co trzeba zrobić w razie, gdyby instalator zawiódł.
+
+
+Starszy proces instalacji:
+1.Na początku należy wypakować folder "Netblock" po wypakowaniu należy go skopiować do folderu: "%USERPROFILE%\AppData\LocalLow"
+
+2.Następnie należy wejści do programu "Config.bat"(Czytaj niżej) albo skopiować "Start.vbs" z folderu "Netblock" i wklejć do folderu: "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+Można się dostać do po przez wiciśnięcie "FlagaWin + R" i wpisaniu "shell:startup"
+
+-Teraz można zrobić to dzięki programowi "Config.bat" wybrać "Ustawianie automatycznego uruchamiania programu Netblock podczas uruchamiania systemu"
+a następnie wybrać "Włącz automatyczne urchamianie programu Netblock razem z systemem"
+
+
+
+3.Po skoniczeniu kopiowania należy uruchomić skrypt "Open folder Netblock.bat" lub udać się do folderu: "%USERPROFILE%\AppData\LocalLow\Netblock" i uruchomić konfigurator: "Config.bat" 
+Jest to program, w którym można ustawić godziny odłączonego internetu (domyślnie jest to od 23 do 5).
+Oraz również teraz można w nim wyłączać i włączać automatyczne uruchamianie się programu Netblock razem z systemem.
+Instrukcja obsługi tego programu jest już w nim.
+
+4.Ostatnim krokiem jest uruchomienie "Start.vbs" 
+(Później już nie będzie trzeba go urchamiać ponieważ zostanie on automatycznie uruchominy razem z systemem.)
+
+
+
+Jak wejści różnymi sposbami do foleru Netblock:
+1. Nacisnać lupe i w polu wyszukiwania wpisać "%appdata%" następnie się cofnąć do folderu "AppData" następnie wejść w folder "LocalLow" i następnie szukamy folderu "Netblock"
+2. Nacisnąć klawisze "FlagaWin + R" i wpisać "%appdata%" reszte wykonujemy jak powyżej
+3. Wejści w eksplorator plików następnie z okienka po lewej wybrać "Ten komputer" następnie na dysk C:\ -> Użytkownicy -> (Tutaj trzeba wybrać folder z nazwą użytkownika np. Anna, Maciek, Filip, Bartek itp.).
+Następnie trzeba wybrać zakładke u góry widok i zaznaczyć "Ukryte elementy" to pozwoliło nam odkryci folder AppData następnie w niego wchodzimy i dalej  AppData -> LocalLow i szukamy folderu Netblock.
+4. Skopiować (Oprócz cudzysłowij) "%USERPROFILE%\AppData\LocalLow\Netblock" i wklejć w pasek adresu(Pasek z lokalizacją pliku/folderu).
+5. Otworzyć skrypt "Open folder Netblock".
+
+
+
+Uwaga: W momencie gdy internet zostanie ponownie podłączony/odłączony trzeba zaczekać około od 30s do 2min na ponowne urchomienie internetu bądź wyłączenie go.  
+
+
+
+Informacjie dotyczące konfigurowania godzin:
+-W programie można ustawić tylko godziny. Autor postara się dodać opcjie ustawiania minut oraz oczywiście godzin.
+
+
+
+
+
+Informacje dotyczącyh plików znajdujących się w folderze Netblock:
+
+-"Awaryjne podłączenie interntu z powrotem.bat"- Jest to programik, któy urchomi internet w razie gdyby główny program przestał działać lub gdyby się zepsuł i nie uruchomił internetu z powrotem.
+
+-"Blokada.bat"- Jest to główny program, który blokuje dostęp do internetu od ustalonych godzinach
+
+-"Config.bat"- Jest to program konfiguracjny czas odłączania internetu. Również teraz można w nim wyłączać i włączać automatyczne uruchamianie się programu Netblock razem z systemem.
+
+-"dane.x"- Jest to plik przechówujący dane konfiguracji godzin.
+
+-"instrukcja.txt" - Jest to instrukcja w notatniku.
+
+-"Start.vbs"- Jest to program, który w odpowiedni sposób uruchamia "Blokada.bat" należy go urchomić tylko na początku.
+
+-"Stop.bat"- Jest to program zatrzymujący działanie głównego programu "Blokada.bat". Na efekt działania trzeba poczekać około 1min.
+
+
+Autor: PG3447
+

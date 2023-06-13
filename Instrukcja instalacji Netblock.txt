@@ -1,0 +1,136 @@
+Instrukcja instalacji Netblock
+
+Proces instalacji:
+1.Należy uruchomić "Install Netblock.bat".
+
+- Jeżeli przebiegła dobrze na ekranie powino pojawić się coś takiego:
+
+Install...
+6 File(s) copied
+6 File(s) copied
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+Installations completed.
+Press any key to continue . . .
+
+
+- Jeżeli podczas instalacji wystąpił jakiś błąd należy skorzystać z instrukcji: "instrukcjaV1.txt", która znajduje się wewnątrz folderu: "Netblock".
+Jednak gdy nie uda się rozwiązać problemu prosze zacząć narzekać na autora i skontaktować się z nim. :)
+
+2.Po zakoniczeniu instalacji powinien się uruchomić konfigurator program oraz powinien otworzyć się folder, w którym znajduje się cały program.
+
+
+- Jeżeli konfigurtator się nie uruchomi należy przeczytać punkt '2-BŁĄD'
+
+2-BŁĄD. Po zakoniczeniu instalacji należy uruchomić skrypt "Open folder Netblock.bat" lub przejści do folderu: "%USERPROFILE%\AppData\LocalLow\Netblock" (Polecam skopiować to co jest między cudzysłowiami i wklejć w pasek adresu) i uruchomić konfigurator: "Config.bat".
+Jest to program, w którym można ustawić godziny odłączonego internetu (domyślnie jest to od 23 do 5).
+Oraz również teraz można w nim wyłączać i włączać automatyczne uruchamianie się programu Netblock razem z systemem.
+Instrukcja obsługi tego programu jest już w nim.
+
+
+3.Następnie należy ustawić godziny odłączonego internetu, gdy godziny zostaną ustawione należy włączyć program (Sterowanie w menu konfiguratora jest wmiare wyjaśnione w dalszej części instrukcji). Gotowe program działa można zamknąć konfigurator.
+(Później już nie będzie trzeba go urchamiać ponieważ zostanie on automatycznie uruchominy razem z systemem.)
+
+- Aby wyłączyć lub włączyć program trzeba wejści do folderu z zainstalowanym porgramem i uruchomić konfigurator Netblock "Config.bat" a następnie z menu wybrać "Wyłącz program Netblock"/"Włącz program Netblock" 
+lub należy uruchomić plik "Start.vbs" z folderu Netblock żeby uruchomić program albo plik "Stop.bat", aby wyłączyć program.
+ 
+
+Jak wejści różnymi sposbami do foleru Netblock:
+1. Nacisnać lupe i w polu wyszukiwania wpisać "%appdata%" następnie się cofnąć do folderu "AppData" następnie wejść w folder "LocalLow" i następnie szukamy folderu "Netblock"
+2. Nacisnąć klawisze "FlagaWin + R" i wpisać "%appdata%" reszte wykonujemy jak powyżej
+3. Wejści w eksplorator plików następnie z okienka po lewej wybrać "Ten komputer" następnie na dysk C:\ -> Użytkownicy -> (Tutaj trzeba wybrać folder z nazwą użytkownika np. Anna, Maciek, Filip, Bartek itp.).
+Następnie trzeba wybrać zakładke u góry widok i zaznaczyć "Ukryte elementy" to pozwoliło nam odkryci folder AppData następnie w niego wchodzimy i dalej  AppData -> LocalLow i szukamy folderu Netblock.
+4. Skopiować (Oprócz cudzysłowij) "%USERPROFILE%\AppData\LocalLow\Netblock" i wklejć w pasek adresu(Pasek z lokalizacją pliku/folderu).
+5. Otworzyć skrypt "Open folder Netblock".
+
+
+
+Sterowanie po menu "konfiguracja Netblock":
+-Aby przejści do danych ustawieni należy wybrać klawisz z danym numerem, który jest umieszczony przed daną opcją np. Żeby włączyć program wybieram 1
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+Witam.
+Wybierz:
+1. Włącz program Netblock
+2. Ustaw godziny odłączonego internetu (Domyślnie od 23 do 5) (Aktualnie od 23 do 5)
+3. Ustawianie automatycznego uruchamiania programu Netblock podczas uruchamiania systemu (Aktualnie włączone)
+4. Przywróć ustawienia fabryczne
+5. Ustawienia kolorystyki
+6. Wyjdź
+>>  
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+Witam.
+Wybierz:
+1. Włącz program Netblock
+2. Ustaw godziny odłączonego internetu (Domyślnie od 23 do 5) (Aktualnie od 23 do 5)
+3. Ustawianie automatycznego uruchamiania programu Netblock podczas uruchamiania systemu (Aktualnie włączone)
+4. Przywróć ustawienia fabryczne
+5. Ustawienia kolorystyki
+6. Wyjdź
+>>1  
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+- Następnie należy wcisnąć enter
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+Witam.
+Wybierz:
+1. Wyłącz program Netblcok (Należy zaczekać około 30s na wyłączenie)
+  (Potwierdzeniem prawidłowego wyłączenia programu jest plik PonowneLacznieZSiecia.txt,
+   który na kilka sekund przed wyłączeniem programu pojawi się na pulipicie)
+2. Ustaw godziny odłączonego internetu (Domyślnie od 23 do 5) (Aktualnie od 23 do 5)
+3. Ustawianie automatycznego uruchamiania programu Netblock podczas uruchamiania systemu (Aktualnie włączone)
+4. Przywróć ustawienia fabryczne
+5. Ustawienia kolorystyki
+6. Wyjdź
+>> 
+- Gotowe opcja wybrana. :D
+
+- W przypadku jak wejdziemy do ustawieni kolorystyki trzeba się posługiwać literami oraz liczbami.
+W tych ustawieniach nie trzeba wciskać enter żeby potwierdzić wybór.
+
+
+
+
+
+
+
+
+Dalsza InstrukcjaV1(Odtąd jest stara wersja instrukcji postaram się ją kiedyś uaktualnić):
+
+
+
+Uwaga: W momencie gdy internet zostanie ponownie podłączony/odłączony trzeba zaczekać około od 30s do 2min na ponowne urchomienie internetu bądź wyłączenie go.  
+
+
+
+Informacjie dotyczące konfigurowania godzin:
+-W programie można ustawić tylko godziny. Autor postara się dodać opcjie ustawiania minut oraz oczywiście godzin.
+
+
+
+
+
+
+Informacje dotyczącyh plików znajdujących się w folderze Netblock:
+
+-"Awaryjne podłączenie interntu z powrotem.bat"- Jest to programik, któy urchomi internet w razie gdyby główny program przestał działać lub gdyby się zepsuł i nie uruchomił internetu z powrotem.
+
+-"Blokada.bat"- Jest to główny program, który blokuje dostęp do internetu od ustalonych godzinach
+
+-"Config.bat"- Jest to program konfiguracjny czas odłączania internetu. Również teraz można w nim wyłączać i włączać automatyczne uruchamianie się programu Netblock razem z systemem.
+
+-"dane.x"- Jest to plik przechowujący dane konfiguracji godzin.
+
+-"dane.vxv"- Jest to plik przechowujący dane programu.
+
+-"instrukcja.txt" - Jest to instrukcja w formacie ".txt".
+
+-"Start.vbs"- Jest to program, który w odpowiedni sposób uruchamia "Blokada.bat".
+
+-"Stop.bat"- Jest to program zatrzymujący działanie głównego programu "Blokada.bat". Na efekt działania trzeba poczekać około 1min.
+
+
+Autor: PG3447
+
+Wjęcej infromacji można znaleźci w pliku "instrukcjaV1" znajdującym się w folderze "Netblock".
